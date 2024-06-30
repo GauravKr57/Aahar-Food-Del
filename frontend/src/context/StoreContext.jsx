@@ -9,7 +9,7 @@ export const StoreContext = createContext(null);
 
 const StoreContextProvider = (props) => {
 
-    const url = "http://localhost:4000";
+    const url = "https://aahar-food-del-backend.onrender.com";
     const [token,setToken] = useState("");                                                              // Passed to loginPopup.jsx for login/Signup form submission and Navbar.jsx for hiding signIn button after login
 
     // To get the food items from the database in our frontend + Dont't get logout on reloading the website
