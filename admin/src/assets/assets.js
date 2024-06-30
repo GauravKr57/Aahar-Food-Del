@@ -19,4 +19,4 @@ export const assets ={
     ahar_fev
 }
 
-export const url = 'http://localhost:4000'
+export const url = 'https://aahar-food-del-backend.onrender.com'
