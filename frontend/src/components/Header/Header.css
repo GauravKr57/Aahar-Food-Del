@@ -1,0 +1,82 @@
+#name{
+    font-family:monospace;
+    color: rgb(208, 241, 61);
+    margin-left: 4px;
+    font-weight: bold;
+    font-size: 1.8vw;
+}
+
+.header{
+    height: 40vw;
+    margin: 30px auto;
+    background: url('/header_img.png') no-repeat;
+    background-size:contain;
+    position: relative;
+    border-radius: 3%;
+}
+
+
+.header .header-contents{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.5vw;
+    max-width: 55%;     /*here*/
+    bottom: 10%;
+    left: 6vw;
+    animation: fadeIn 3s;  /* LINKED TO index.css FOR ANIMATION so that header contents appear in animation */
+}
+
+.header-contents h2{
+    font-weight: 500;
+    color: white;
+    font-size: max(4.5vw,23px);
+}
+
+.header p{
+    color: white;
+    font-size: 1vw;
+}
+
+.header-contents a{
+    cursor: pointer;
+    border: none;
+    color: #3d3c3c;
+    font-weight: 500;
+    padding: 1vw 2.3vw;
+    background-color: rgb(223, 255, 255);
+    font-size: max(1.2vw,13px);
+    border-radius: 50px;
+    transition: 0.3s;
+    animation: fadeIn 3.5s;  /*In index.css*/
+}
+
+.header-contents a:hover{
+    background-color: rgb(34, 207, 115);
+}
+
+/* RESPONSIVE */ 
+
+@media (max-width:1050px)
+{
+    .header-contents{
+        max-width: 45%;
+    }
+}
+
+@media (max-width:750px)
+{
+    .header-contents{
+        max-width: 65%;
+    }
+    .header-contents p{
+        display: none;
+    }
+    .header-contents h2{
+        font-size: 17px;
+    }
+    .header-contents button{
+        padding: 2vw 4vw;
+    }
+}

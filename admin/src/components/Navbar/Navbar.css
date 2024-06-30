@@ -1,0 +1,20 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 4%;
+}
+
+.navbar .logo{
+    width: max(15%,80px);
+}
+
+.navbar .profile{
+    width: 45px;
+}
+
+.title-admin{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 800;
+    margin-left: -5px;
+}

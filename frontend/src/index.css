@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+/* Open Sans	23.69%
+#2	Lato	8.508% */
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Outfit;
+  scroll-behavior: smooth;
+}
+
+body{
+  min-height: 100vh;
+  color: inherit;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.app{
+  width: 90%;        /* here*/
+  margin: auto;
+}
+
+
+/*To Display Header Text with Fade Effect*/
+
+@keyframes fadeIn {
+  0%{
+    opacity: 0;
+  }  
+  100%{
+    opacity: 1;
+  }
+}

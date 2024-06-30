@@ -1,0 +1,36 @@
+.list-table-format{
+    display: grid;
+    grid-template-columns: 0.7fr 2fr 1fr 1fr 0.5fr;
+    align-items: center;
+    gap: 12px;
+    padding: 15px 18px;
+    border: 1.5px solid #cacaca;
+    font-size: 15px;
+}
+
+.list-table-format.title{
+    background-color: #fff5e8;
+}
+
+.list-table-format img{
+    width: 70px;
+}
+
+#remove{
+    color: red;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 5px;
+}
+
+
+
+@media (max-width:700px)
+{
+    .list-table-format{
+        grid-template-columns: 1fr 3fr 1fr;
+    }
+    .list-table-format.title{
+        display: none;
+    }
+}

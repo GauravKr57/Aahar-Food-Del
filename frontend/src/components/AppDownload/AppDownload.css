@@ -1,0 +1,33 @@
+.app-download{
+    margin: auto auto;
+    margin-top: 110px;
+    font-size: max(3.5vw,20px);
+    text-align: center;
+    font-weight: 550;
+}
+
+.app-download-platforms{
+    display: flex;
+    justify-content: center;
+    gap: max(2.5vw,10px);
+    margin-top: 45px;
+}
+
+.app-download-platforms img{
+    width: max(32vw,120px);
+    border-radius: 14%;
+    max-width: 180px;
+    transition: 0.5s;
+    cursor: pointer;
+    box-shadow: 6px 8px 10px rgba(0, 0, 0, 0.6);
+}
+
+.app-download-platforms img:hover{
+    transform: scale(1.07);
+}
+
+#ahar{
+    font-weight: bold;
+    font-size: max(4vw,28px);
+    color: rgb(207, 111, 0);
+}
